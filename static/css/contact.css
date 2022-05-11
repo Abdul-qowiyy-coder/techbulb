@@ -1,0 +1,94 @@
+ /* body{
+   background-color:#fff;
+ } */
+ 
+ .nav-link {
+  color: white;
+  font-family:'BIZ UDPMincho', serif
+}
+.nav-link:hover{
+  font-size: 1.2em;
+  color: aqua;
+  /* font-family: var(--p-font); */
+}
+#heading{
+  background-color:#0E185F;
+  position: sticky;
+  z-index: 0;
+  top: 1;
+  columns: #006fb9;
+}
+
+ #home-contact{
+  height: fit-content;
+  padding: 3% auto;
+  width: 90%;
+  margin: 5% auto;
+  margin-top: 5%;
+}
+.home-contact-inner{
+  height: fit-content;
+  background-color: #fff;
+  padding: 5%;
+}
+.text{
+  color: #0E185F;
+}
+.home-contact-text{
+  width: 30%;
+  margin-right: 5%;
+}
+.home-contact-text h1{
+  color: #0E185F;
+}
+.contact-icons i{
+  color: #0E185F;
+}
+.home-contact-form{
+  height: fit-content;
+  background-color:#0E185F ;
+  border: 1px solid  #0E185F;
+  border-radius: 10%;
+  width: 60%;
+}
+.home-contact-form form input, .home-contact-form form textarea{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  width: 100%;
+  margin-bottom: 5%;
+  outline: none;
+}
+.home-contact-form input[type=submit]{
+  color: #fff;
+  background-color:#0E185F;
+  padding: 8px 20px;
+  border: #fff;
+  border-radius: 20px;
+  width: 30%;
+  text-align: center;
+}
+.home-contact-form input[type=submit]:hover{
+  background-color:#0E185F;
+  color: #fff;
+  transition: ease .5s;
+}
+.home-contact-form form label{
+  margin-bottom: 2%;
+}
+#phone-number, #email, #cvv, #expiry{
+  width: 95%;
+}
+
+/* ******RESPONSIVE STYLING FOR HOME CONTACT SECTION ****** */
+@media (max-width:768px) {
+  .home-contact-text{
+      width: 80%;
+      margin: auto;
+      margin-bottom: 10%;
+  }
+  .home-contact-form{
+      width: 100%;
+  }
+}
+

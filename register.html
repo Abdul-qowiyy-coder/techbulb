@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="https://codepen.io/gymratpacks/pen/VKzBEp#0">
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="static/css/register.css">
+        <script src="static/js/index.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+    <body>
+      <div class="row">
+    <div class="col-md-12"  data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-duration="1500" >
+      <form action="https://formspree.io/f/mrgjaynn" method="post" >
+        <h1> Sign Up </h1>
+        
+        <fieldset>
+          
+          <legend><span class="number">1</span> Your Basic Info</legend>
+        
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name">
+        
+          <label for="email">Email:</label>
+          <input type="email" id="mail" name="user_email">
+       
+          <label for="password">Password:</label>
+          <input type="password" id="password"       name="user_password">
+        
+          <label>Age:</label>
+          <input type="radio" id="under_13" value="under_13" name="user_age"><label for="under_13" class="light">Under 13</label><br>
+          <input type="radio" id="over_13" value="over_13" name="user_age"><label for="over_13" class="light">Over 13</label>
+          
+        </fieldset>
+       
+       
+        <button type="submit">Sign Up</button>
+        
+       </form>
+        </div>
+      </div>
+      
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="static/js/index.js"></script>
+    </body>
+</html>
